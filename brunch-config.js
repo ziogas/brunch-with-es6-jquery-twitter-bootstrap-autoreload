@@ -10,7 +10,8 @@ exports.files = {
 };
 
 exports.plugins = {
-    babel: {presets: ['latest', 'stage-0']}
+    babel: {presets: ['latest', 'stage-0']},
+    copycat: {fonts: ['node_modules/bootstrap/dist/fonts'], onlyChanged: true}
 };
 
 exports.npm = {
